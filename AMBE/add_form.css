@@ -23,14 +23,17 @@ body {
 
 #name-input {
     font-size: 20px;
+    border-radius: 8px;
 }
 
 #email-input {
+    border-radius: 8px;
     font-size: 20px;
     margin-top: 10px;
 }
 
 #submit-button {
+    background-color: beige;
     margin-left: 140px;
     margin-top: 20px;
     border-radius: 10px;
@@ -41,7 +44,8 @@ body {
 }
 
 #submit-button:hover {
-    transform: scale(1.1)
+    transform: scale(1.1);
+    background-color: cadetblue;
 
 }
 
