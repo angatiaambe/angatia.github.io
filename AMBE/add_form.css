@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.title h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.my-form {
+    display: flex;
+    justify-content: center;
+}
+
+.my-form form {
+    font-style: italic;
+}
+
+#name-input {
+    font-size: 20px;
+}
+
+#email-input {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#submit-button {
+    margin-left: 140px;
+    margin-top: 20px;
+}
+
+.redirect-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.redirect-button a {
+    margin-left: 30px;
+}
+
