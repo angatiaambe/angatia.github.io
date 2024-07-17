@@ -74,6 +74,17 @@ body {
 }
 
 .redirect-button a {
-    margin-left: 30px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: inherit;
+    border-style: inherit;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.redirect-button a:hover {
+    color: slategray;
+    transform: scale(1.1);
+}
+
 
