@@ -3,6 +3,17 @@ body {
     padding: 0;
 }
 
+.main {
+    background-color: aliceblue;
+    margin: 70px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.main:hover {
+    transform: scale(1.1);
+}
+
 .title {
     display: flex;
     justify-content: center;
