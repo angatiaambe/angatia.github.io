@@ -19,8 +19,17 @@ class Document {
         this.versions.add(version);
     }
 
+    public void updateContent(String newContent) {
+        this.versions.add(this.content);  // store the current content as a version
+        this.content = newContent;  // update to new content
+    }
+
     public List<String> getVersions() {
         return this.versions;
+    }
+
+    public String getName() {
+        return this.name;
     }
 }
 
@@ -64,13 +73,13 @@ class DMS {
     }
 
     public boolean hasAccess(User user, Document document) {
-        // implement access permission logic here
+        // Implement access permission logic here
         return true; // for simplicity
     }
 
     public void updateDocument(User user, Document document, String newContent) {
         if (hasAccess(user, document)) {
-            document.addVersion(newContent);
+            document.updateContent(newContent);
         }
     }
 }
